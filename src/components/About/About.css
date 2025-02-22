@@ -39,7 +39,7 @@
 
 @media screen and (max-width: 780px) {
   .about {
-    padding: 80px 40px 0;
+    padding: 130px 40px 0;
   }
 
   .about__avatar-image {
@@ -61,14 +61,14 @@
 
 @media screen and (max-width: 595px) {
   .about {
-    padding: 32px 16px;
+    padding: 130px 16px 0;
     flex-direction: column;
     align-items: center;
   }
 
   .about__avatar-image {
-    height: 272px;
-    width: 272px;
+    height: 260px;
+    width: 260px;
     margin: 0 0 24px;
   }
 
