@@ -14,12 +14,10 @@ const NavBar = () => {
             Projects
             <ul className="navbar-projects-list">
               <li className="navbar-projects-list-item">
-                <Link to="https://d.kyle.blinklab.com">WTWR</Link>
+                <a href="https://d.kyle.blinklab.com/wtwr/">WTWR</a>
               </li>
               <li className="navbar-projects-list-item">
-                <Link to="https://dkylem18.github.io/se_project_news/">
-                  News Explorer
-                </Link>
+                <a href="https://d.kyle.blinklab.com/news/">News Explorer</a>
               </li>
               <li className="navbar-projects-list-item">
                 <Link to="/project3">Project 3</Link>

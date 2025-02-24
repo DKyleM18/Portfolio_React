@@ -1,11 +1,13 @@
 .navbar {
   position: fixed;
+  max-width: 1440px;
   top: 0;
   width: -webkit-fill-available;
   height: 80px;
   background-color: #333;
   color: white;
-  padding: 0 40px;
+  padding: 0;
+  margin: 0;
   z-index: 1000;
 }
 
@@ -22,10 +24,12 @@
   display: flex;
   align-items: center;
   height: 100%;
+  margin-left: 40px;
 }
 
 .navbar-links {
   display: flex;
+  margin-right: 40px;
 }
 
 .navbar-projects,

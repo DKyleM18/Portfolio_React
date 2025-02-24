@@ -1,6 +1,7 @@
 .about {
   display: flex;
   padding: 130px 60px 40px;
+  border-bottom: 1px solid #444;
 }
 
 .about__avatar {
