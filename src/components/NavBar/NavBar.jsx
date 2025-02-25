@@ -19,9 +19,6 @@ const NavBar = () => {
               <li className="navbar-projects-list-item">
                 <a href="https://d.kyle.blinklab.com/news/">News Explorer</a>
               </li>
-              <li className="navbar-projects-list-item">
-                <Link to="/project3">Project 3</Link>
-              </li>
             </ul>
           </li>
           <li className="navbar-socials">

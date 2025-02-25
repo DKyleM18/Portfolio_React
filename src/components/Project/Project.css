@@ -1,0 +1,72 @@
+.project__container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 60px;
+  align-items: center;
+  border-bottom: 1px solid #444;
+}
+
+.project__title {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.project__description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 auto 40px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.project__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  max-width: 1200px;
+}
+
+.project__item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.project__item-title {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.project__item-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 auto 20px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.project__item-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto 20px;
+}
+
+.project__item-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* or 'cover' depending on your desired behavior */
+}
