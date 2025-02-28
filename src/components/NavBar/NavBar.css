@@ -78,14 +78,11 @@
   color: white;
   text-decoration: none;
 }
-/* 
-.navbar-projects:hover .navbar-projects-list,
-.navbar-projects-list:hover,
-.navbar-socials:hover .navbar-socials-list,
-.navbar-socials-list:hover {
-  display: block;
-  transition: all 0.3s ease-in-out;
-} */
+
+.navbar-projects-list-item a:hover,
+.navbar-socials-list-item a:hover {
+  color: #007bff;
+}
 
 .navbar-projects:hover .navbar-projects-list,
 .navbar-projects-list:hover {

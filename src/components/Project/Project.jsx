@@ -12,10 +12,13 @@ const Project = () => {
       </p>
       <div className="project__list">
         <div className="project__item">
-          <h3 className="project__item-title">Project 1</h3>
-          <p className="project__item-description">Description of project 1.</p>
+          <h3 className="project__item-title">What to Wear</h3>
+          <p className="project__item-description">
+            React application using Weather API to list saved clothing items
+            based on user’s current location’s weather.
+          </p>
           <div className="project__item-links">
-            <a href="https://github.com/DKyleM18">GitHub</a>
+            <a href="https://github.com/DKyleM18/se_project_react">GitHub</a>
             <a href="https://d.kyle.blinklab.com/wtwr/">Live</a>
           </div>
           <img
@@ -25,10 +28,13 @@ const Project = () => {
           />
         </div>
         <div className="project__item">
-          <h3 className="project__item-title">Project 2</h3>
-          <p className="project__item-description">Description of project 2.</p>
+          <h3 className="project__item-title">News Explorer</h3>
+          <p className="project__item-description">
+            React application using News API to fetch news articles from the
+            past week based on user input.
+          </p>
           <div className="project__item-links">
-            <a href="https://github.com/DKyleM18">GitHub</a>
+            <a href="https://github.com/DKyleM18/se_project_news">GitHub</a>
             <a href="https://d.kyle.blinklab.com/news/">Live</a>
           </div>
           <img
