@@ -8,9 +8,18 @@ const Footer = () => {
         &copy; 2025 Daniel Kyle Messersmith
       </div>
       <div className="footer__socials">
-        <a href="https://discord.com/users/DKyleM18">Discord</a>
-        <a href="https://github.com/DKyleM18">GitHub</a>
-        <a href="https://linkedin.com/in/d-kyle-messersmith">LinkedIn</a>
+        <a href="https://discord.com/users/DKyleM18" className="footer__link">
+          Discord
+        </a>
+        <a href="https://github.com/DKyleM18" className="footer__link">
+          GitHub
+        </a>
+        <a
+          href="https://linkedin.com/in/d-kyle-messersmith"
+          className="footer__link"
+        >
+          LinkedIn
+        </a>
       </div>
     </footer>
   );

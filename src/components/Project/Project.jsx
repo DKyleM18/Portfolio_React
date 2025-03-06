@@ -8,17 +8,19 @@ const Project = () => {
     <section className="project__container">
       <h2 className="project__title">Projects</h2>
       <p className="project__description">
-        Here are some of the projects I have worked on.
+        Here are a few examples of projects I have worked on. Click on the links
+        to view the source code on GitHub or see the live version of the
+        project.
       </p>
       <div className="project__list">
         <div className="project__item">
           <h3 className="project__item-title">What to Wear</h3>
           <p className="project__item-description">
             React application using Weather API to list saved clothing items
-            based on user’s current location’s weather.
+            based on user&apos;s current location&apos;s weather.
           </p>
           <div className="project__item-links">
-            <a href="https://github.com/DKyleM18/se_project_react">GitHub</a>
+            <a href="https://github.com/DKyleM18/WhatToWear_React">GitHub</a>
             <a href="https://d.kyle.blinklab.com/wtwr/">Live</a>
           </div>
           <img
@@ -34,7 +36,7 @@ const Project = () => {
             past week based on user input.
           </p>
           <div className="project__item-links">
-            <a href="https://github.com/DKyleM18/se_project_news">GitHub</a>
+            <a href="https://github.com/DKyleM18/NewsExplorer_React">GitHub</a>
             <a href="https://d.kyle.blinklab.com/news/">Live</a>
           </div>
           <img

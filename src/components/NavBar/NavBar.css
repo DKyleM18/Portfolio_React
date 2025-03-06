@@ -25,6 +25,10 @@
   align-items: center;
   height: 100%;
   margin-left: 40px;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
 }
 
 .navbar-links {
@@ -77,6 +81,8 @@
 .navbar-socials-list-item a {
   color: white;
   text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .navbar-projects-list-item a:hover,
@@ -92,4 +98,50 @@
 .navbar-socials:hover .navbar-socials-list,
 .navbar-socials-list:hover {
   display: block;
+}
+
+@media screen and (max-width: 780px) {
+  .navbar-name {
+    font-size: 20px;
+  }
+
+  .navbar-projects-list-item a,
+  .navbar-socials-list-item a {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  .navbar-name {
+    font-size: 18px;
+  }
+
+  .navbar-projects-list-item a,
+  .navbar-socials-list-item a {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navbar-name {
+    font-size: 16px;
+  }
+
+  .navbar-projects,
+  .navbar-socials {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .navbar-socials-list {
+    right: -20px;
+  }
+
+  .navbar-projects-list-item,
+  .navbar-socials-list-item {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
