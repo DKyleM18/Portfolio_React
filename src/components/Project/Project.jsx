@@ -21,7 +21,7 @@ const Project = () => {
           </p>
           <div className="project__item-links">
             <a href="https://github.com/DKyleM18/WhatToWear_React">GitHub</a>
-            <a href="https://d.kyle.blinklab.com/wtwr/">Live</a>
+            <a href="https://dkylem.com/wtwr/">Live</a>
           </div>
           <img
             className="project__item-image"
@@ -37,7 +37,7 @@ const Project = () => {
           </p>
           <div className="project__item-links">
             <a href="https://github.com/DKyleM18/NewsExplorer_React">GitHub</a>
-            <a href="https://d.kyle.blinklab.com/news/">Live</a>
+            <a href="https://dkylem.com/news/">Live</a>
           </div>
           <img
             className="project__item-image"
